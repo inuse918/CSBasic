@@ -29,6 +29,19 @@ namespace CSBasic
 
             Console.WriteLine("이" + "상" + "연");
 
+            int a = 200000000;
+            int b = 100000000;
+            Console.WriteLine((long)a + b);
+            Console.WriteLine((long)a + (long)b);
+            Console.WriteLine(a + (long)b);
+            Console.WriteLine(a + b);
+
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(long.MinValue);
+
+            var hello = "안녕~";
+            string input = Console.ReadLine();
+            Console.WriteLine("입력: " + input);
         }
     }
 }
